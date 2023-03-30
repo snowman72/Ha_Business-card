@@ -94,7 +94,7 @@ span {
 .RMIT-logo {
     width: 150px;
     border: 10px solid transparent;
-    border-image: url(/assets/border.png) 20% round;
+    border-image: url(assets/border.png) 20% round;
     background-color: white;
     padding: 5px;
 }
@@ -106,11 +106,4 @@ span {
     33% {transform: skew(25deg)}
     66% {transform: skew(-20deg)}
     100% {transform: rotate3d(0,1,0,180deg)}
-}
-
-@keyframes glitter-moon {
-    25% {background-image: linear-gradient(#f1d691, #F9D67A)}
-    50% {background-image: linear-gradient(#f1d691, #f7e4b4)}
-    75% {background-image: linear-gradient(#f1d691, #F9D67A)}
-    100% {background-image: url(/assets/crescent-moon.png)}
 }
