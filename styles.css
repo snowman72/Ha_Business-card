@@ -1,0 +1,116 @@
+body {
+    background-color: #EAFDFC;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 38px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+span {
+    font-size: 18px;
+}
+.container {
+    width: 450px;
+    border-radius: 30px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 32px;
+    background-color: #82AAE3;
+}
+
+#RMIT-logo {
+    width: 200px;
+}
+
+.bg-img {
+    height: 280px;
+    position: relative;
+    align-self: flex-start;
+}
+
+#profile-picture {
+    width: 220px;
+    border-radius: 50%;
+    border: 2px inset #BFEAF5;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 5px 10px 18px 5px #cccccc;
+    /* horizontal, vertical, blur, spread */
+}
+
+.profile{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons {
+    width: 50px;
+    border-radius: 10px;
+}
+
+#email {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: max-content;
+    padding: 16px 32px;
+    margin: 15px auto;
+    background-image:linear-gradient(to bottom right, #91D8E4, #BFEAF5);
+    cursor: pointer;
+}
+
+#Ha-name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    color: black;
+}
+
+.star {
+    width: 22px;
+    animation: jiggle-star 3s infinite;
+}
+
+.greeting {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin-top: 0px;
+}
+
+.hello-sticker {
+    width: 150px;
+}
+.greeting-box {
+    padding: 10px 23px;
+}
+
+.RMIT-logo {
+    width: 150px;
+    border: 10px solid transparent;
+    border-image: url(/assets/border.png) 20% round;
+    background-color: white;
+    padding: 5px;
+}
+
+.festive-flag {
+    width: 450px;
+}
+@keyframes jiggle-star {
+    33% {transform: skew(25deg)}
+    66% {transform: skew(-20deg)}
+    100% {transform: rotate3d(0,1,0,180deg)}
+}
+
+@keyframes glitter-moon {
+    25% {background-image: linear-gradient(#f1d691, #F9D67A)}
+    50% {background-image: linear-gradient(#f1d691, #f7e4b4)}
+    75% {background-image: linear-gradient(#f1d691, #F9D67A)}
+    100% {background-image: url(/assets/crescent-moon.png)}
+}
